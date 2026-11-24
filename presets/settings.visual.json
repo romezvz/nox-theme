@@ -1,0 +1,12 @@
+{
+  "workbench.iconTheme": "symbols",
+  "workbench.colorTheme": "NOX",
+  "editor.guides.indentation": false,
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.scrollbar.verticalScrollbarSize": 6,
+  "editor.scrollbar.horizontalScrollbarSize": 6,
+  "breadcrumbs.enabled": false,
+  "workbench.editor.highlightModifiedTabs": false,
+  "workbench.editor.decorations.colors": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true
+}

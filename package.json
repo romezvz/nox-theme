@@ -1,0 +1,39 @@
+{
+  "name": "nox-theme",
+  "displayName": "NOX",
+  "description": "Minimal interface. Expressive syntax.",
+  "version": "1.0.0",
+  "publisher": "nox-local",
+  "license": "MIT",
+  "icon": "assets/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/romezvz/nox-theme.git"
+  },
+  "homepage": "https://github.com/romezvz/nox-theme#readme",
+  "bugs": {
+    "url": "https://github.com/romezvz/nox-theme/issues"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "nox",
+    "dark",
+    "minimal",
+    "graphite",
+    "theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "NOX",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nox-color-theme.json"
+      }
+    ]
+  }
+}

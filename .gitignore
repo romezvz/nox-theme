@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Build artifacts
+*.vsix
+
+# Local configuration
+.vscode/
+presets/settings.personal.json
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
