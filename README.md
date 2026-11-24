@@ -2,21 +2,38 @@
   <img src="https://raw.githubusercontent.com/romezvz/nox-theme/main/assets/icon.png" width="100" alt="NOX Logo" />
 </p>
 
-<h1 align="center">NOX</h1>
+<h1 align="center">NOX — Graphite</h1>
 
 <p align="center">
   <strong>Minimal interface. Expressive syntax.</strong>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-1.0.0-181C22?style=flat-square" alt="Version" />
-  <img src="https://img.shields.io/badge/license-MIT-181C22?style=flat-square" alt="License" />
-  <img src="https://img.shields.io/badge/Visual%20Studio%20Code-181C22?style=flat-square" alt="VS Code" />
+  <a href="https://marketplace.visualstudio.com/items?itemName=romezvz.nox-graphite">
+    <img src="https://img.shields.io/visual-studio-marketplace/v/romezvz.nox-graphite?style=flat-square&color=181C22&label=version" alt="Version" />
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=romezvz.nox-graphite">
+    <img src="https://img.shields.io/visual-studio-marketplace/i/romezvz.nox-graphite?style=flat-square&color=181C22" alt="Installs" />
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=romezvz.nox-graphite">
+    <img src="https://img.shields.io/visual-studio-marketplace/r/romezvz.nox-graphite?style=flat-square&color=181C22" alt="Rating" />
+  </a>
+  <a href="https://github.com/romezvz/nox-theme/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-181C22?style=flat-square" alt="License" />
+  </a>
 </p>
 
 <p align="center">
   A minimalist dark theme for Visual Studio Code, designed for a clean,
   balanced and focused development experience.
+</p>
+
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=romezvz.nox-graphite"><strong>Install from Marketplace</strong></a>
+  ·
+  <a href="https://github.com/romezvz/nox-theme/releases/latest">Download VSIX</a>
+  ·
+  <a href="https://github.com/romezvz/nox-theme/issues">Report an issue</a>
 </p>
 
 ---
@@ -77,18 +94,29 @@ unnecessary visual noise while preserving the personality of your code.
 
 ## Installation
 
-1. Download the latest `.vsix` package from [GitHub Releases](https://github.com/romezvz/nox-theme/releases).
-2. Open Visual Studio Code.
-3. Open the Command Palette using `Ctrl + Shift + P`.
-4. Select `Extensions: Install from VSIX...`.
-5. Select the downloaded package.
-6. Open the Color Theme menu and select **NOX**.
+### Visual Studio Marketplace
 
-Alternatively, install the extension from your terminal:
+1. Open Visual Studio Code.
+2. Open the Extensions view (`Ctrl + Shift + X`).
+3. Search for **NOX — Graphite** by romezvz.
+4. Click **Install**.
+5. Select **NOX** from the Color Theme menu.
+
+[View on Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=romezvz.nox-graphite)
+
+### Command line
 
 ```bash
-code --install-extension nox-theme-1.0.0.vsix
+code --install-extension romezvz.nox-graphite
 ```
+
+### Manual installation
+
+1. Download the latest `.vsix` package from [GitHub Releases](https://github.com/romezvz/nox-theme/releases/latest).
+2. Open the Command Palette (`Ctrl + Shift + P`).
+3. Select `Extensions: Install from VSIX...`.
+4. Select the downloaded package.
+5. Activate **NOX** from the Color Theme menu.
 
 ## Recommended setup
 
@@ -96,15 +124,22 @@ For the complete NOX experience, we recommend:
 
 - [Symbols](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols) file icon theme.
 - A programming font with italic support.
-- The optional [visual settings preset](presets/settings.visual.json).
+- The optional [visual settings preset](https://github.com/romezvz/nox-theme/blob/main/presets/settings.visual.json).
 
 The theme works independently without these recommendations.
+
+## Changelog
+
+See the [CHANGELOG](https://github.com/romezvz/nox-theme/blob/main/CHANGELOG.md) for release history and updates.
 
 ## Feedback
 
 Suggestions, improvements and bug reports are welcome.
 
 Please use [GitHub Issues](https://github.com/romezvz/nox-theme/issues) to share your feedback.
+
+If you enjoy using NOX, consider leaving a rating on
+[Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=romezvz.nox-graphite&ssr=false#review-details).
 
 ## Credits
 
@@ -114,7 +149,7 @@ a redesigned workbench interface and an independent visual identity.
 
 ## License
 
-Released under the [MIT License](LICENSE).
+Released under the [MIT License](https://github.com/romezvz/nox-theme/blob/main/LICENSE).
 
 ---
 

@@ -1,11 +1,15 @@
 {
-  "name": "nox-theme",
-  "displayName": "NOX",
+  "name": "nox-graphite",
+  "displayName": "NOX — Graphite",
   "description": "Minimal interface. Expressive syntax.",
-  "version": "1.0.0",
-  "publisher": "nox-local",
+  "version": "1.0.2",
+  "publisher": "romezvz",
   "license": "MIT",
   "icon": "assets/icon.png",
+  "galleryBanner": {
+    "color": "#12161B",
+    "theme": "dark"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/romezvz/nox-theme.git"
