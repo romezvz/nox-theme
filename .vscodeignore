@@ -5,4 +5,5 @@
 .vscodeignore
 node_modules/**
 presets/settings.personal.json
+assets/screenshots/**
 **/*.vsix
